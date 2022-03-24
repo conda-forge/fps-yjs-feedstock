@@ -1,7 +1,7 @@
 About fps-yjs
 =============
 
-Home: https://github.com/jupyter-server/jupyverse/plugins/yjs
+Home: https://github.com/jupyter-server/jupyverse/tree/main/plugins/yjs
 
 Package license: BSD-3-Clause
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fps-yjs-feedsto
 
 Summary: An FPS plugin for the Yjs API
 
-Development: https://github.com/jupyter-server/jupyverse/plugins/yjs
+Development: https://github.com/jupyter-server/jupyverse/tree/main/plugins/yjs
 
 Current build status
 ====================
