@@ -20,8 +20,10 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - fps <1
-    - fps-auth <1
+    - fps >=0.0.8,<1
+    - fps-contents <1
+    - jupyter_ydoc >=0.1.16,<0.2.0
+    - ypy-websocket >=0.3.2,<0.4.0
 
 test:
   imports:
