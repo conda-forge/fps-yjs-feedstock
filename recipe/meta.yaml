@@ -1,5 +1,5 @@
 {% set name = "fps-yjs" %}
-{% set version = "0.0.37" %}
+{% set version = "0.0.38" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fps_yjs-{{ version }}.tar.gz
-  sha256: 3ec78366d0ee7977fd7f529fafc3455a88edcc004ddc1bc669e63d7ff8e9abfd
+  sha256: 42452407c5cf4a5601cb69516e7d30dbeaf68329d245e5759e7cfeca73c166d2
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.7
     - fps >=0.0.8,<1
-    - fps-contents <1
+    - fps-contents >=0.0.37,<1
     - jupyter_ydoc >=0.1.16,<0.2.0
     - ypy-websocket >=0.3.2,<0.4.0
 
