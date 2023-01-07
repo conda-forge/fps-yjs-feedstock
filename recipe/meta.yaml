@@ -25,7 +25,7 @@ requirements:
     - fps-auth-base <1
     - fps-contents >=0.0.37,<1
     - jupyter_ydoc >=0.1.16,<0.2.0
-    - ypy-websocket >=0.3.2,<0.4.0
+    - ypy-websocket >=0.8.2,<0.4.0
 
 test:
   imports:
