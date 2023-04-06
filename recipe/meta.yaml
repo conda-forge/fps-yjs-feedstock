@@ -21,12 +21,10 @@ requirements:
     - hatchling
   run:
     - python >=3.8
-    - fps >=0.0.8,<1
-    - fps-auth-base <1
-    - fps-contents >=0.0.37,<1
-    - jupyter_ydoc >=0.3.0,<0.4.0
+    - jupyverse-api >=0.1.2,<1
+    - jupyter_ydoc >=0.3.4,<0.4.0
     - ypy-websocket >=0.8.2,<1
-    - y-py >=0.5.9,<0.6.0
+    - y-py >=0.6.0,<0.7.0
 
 test:
   imports:
@@ -35,7 +33,7 @@ test:
 about:
   home: https://github.com/jupyter-server/jupyverse/tree/main/plugins/yjs
   summary: An FPS plugin for the Yjs API
-  keywords: jupyter, server, fastapi, pluggy, plugins
+  keywords: jupyter, server, fastapi, plugins
   dev_url: https://github.com/jupyter-server/jupyverse/tree/main/plugins/yjs
   license_file: COPYING.md
   license: BSD-3-Clause
