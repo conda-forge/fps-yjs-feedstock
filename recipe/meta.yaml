@@ -1,5 +1,5 @@
 {% set name = "fps-yjs" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fps_yjs-{{ version }}.tar.gz
-  sha256: af6d85fec15c786ce2d97e37e5d34e78fe77b083d11f27d4ee72cfc2acc7ca42
+  sha256: b682ea2b9c1881ae5c97b89aea255b3b236dc08a5209d3d234adeaf9780641a4
 
 build:
   noarch: python
