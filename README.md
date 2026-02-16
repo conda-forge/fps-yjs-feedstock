@@ -9,8 +9,6 @@ Package license: BSD-3-Clause
 
 Summary: An FPS plugin for the Yjs API
 
-Development: https://github.com/jupyter-server/jupyverse/tree/main/plugins/yjs
-
 Current build status
 ====================
 
