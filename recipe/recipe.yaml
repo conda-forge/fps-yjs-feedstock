@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.13.0"
+  version: "0.14.1"
 
 package:
   name: fps-yjs
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/fps-yjs/fps_yjs-${{ version }}.tar.gz
-    sha256: 47064725ec8488eb313bcfce12e2b44fd6f5d8a76b6d45a0bf82cd384b637955
+    sha256: 2132e0a086bd56f576bad528687263ed3e0400e2da57bdd5389245d27663f5f9
 
 build:
   noarch: python
