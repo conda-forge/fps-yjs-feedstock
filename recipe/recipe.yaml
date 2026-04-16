@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.13.0"
+  version: "0.14.2"
 
 package:
   name: fps-yjs
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/fps-yjs/fps_yjs-${{ version }}.tar.gz
-    sha256: 47064725ec8488eb313bcfce12e2b44fd6f5d8a76b6d45a0bf82cd384b637955
+    sha256: 00faef7432d9fee4abe419607202b62195e4d8bda084457884c6a9a923e26e8c
 
 build:
   noarch: python
@@ -24,7 +24,14 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - jupyverse-api >=0.14.0,<0.15.0
+    - fastapi-core
+    - fps
+    - jupyverse-api >=0.15.0,<0.16.0
+    - jupyverse-auth >=0.2.0,<0.3.0
+    - jupyverse-file-id >=0.1.0,<0.2.0
+    - jupyverse-yjs >=0.1.1,<0.2.0
+    - jupyverse-yrooms >=0.1.1,<0.2.0
+    - pycrdt
 
 tests:
   - python:
