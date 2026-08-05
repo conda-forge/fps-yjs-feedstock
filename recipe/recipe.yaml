@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.14.2"
+  version: "0.14.3"
 
 package:
   name: fps-yjs
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/fps-yjs/fps_yjs-${{ version }}.tar.gz
-    sha256: 00faef7432d9fee4abe419607202b62195e4d8bda084457884c6a9a923e26e8c
+    sha256: 3b6b54e172de7e4bfec4550f2b985a511e7f1ef28710437e503e9df2ef0a33bb
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - uv-build
+    - uv-build >=0.11.32,<0.12
   run:
     - python >=${{ python_min }}
     - fastapi-core
